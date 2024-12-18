@@ -1,6 +1,5 @@
 import pyttsx3
-
-word = "i am Sujit Tomar from Aurangabad Bihar 'Thank You So Much'"
-speech = pyttsx3.init()
-speech.say(word)
-speech.runAndWait()
+word = "i am Sujit Kumar Singh from Aurangabad Bihar 'Thank You So Much'"
+textToSpeech = pyttsx3.init()
+textToSpeech.say(word)
+textToSpeech.runAndWait()
