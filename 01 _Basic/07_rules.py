@@ -6,3 +6,5 @@ print('''RULE
 3. A variable name cant't start with a digit
 4. No while space is allowed to be use inside a variable name
 ''')
+
+
