@@ -49,3 +49,9 @@ arrayRemove = ["Amit", "Sumit", "Ranjit", "Sanjit"]
 print(arrayRemove.remove("Sanjit"))
 print(arrayRemove) # ['Amit', 'Sumit', 'Ranjit']
 
+
+# Sum
+a = [1, 2, 3]
+print(sum(a)) # 6
+
+

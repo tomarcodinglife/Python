@@ -15,3 +15,8 @@ num2 = int(input("Enter Num 1 "))
 print("Num 1 = ", num1) # 5
 print("Num 2 = ", num2) # 2
 print("Total Sum = ", num1 + num2) # 7
+
+
+marks = []
+marks1 = int(input("Enter Marks Here : "))
+marks.append(marks1)
