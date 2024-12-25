@@ -67,10 +67,10 @@ print(myDict) # {'a': '5', 'b': '10', 'c': '12', 'd': '12', 'aman': '252'}
 
 # fromkeys 
 key = ['a', 'b', 'c']
-# newKeyVal = key.fromkeys(key, 0)
-# print(newKeyVal)
+newKeyVal = dict.fromkeys(key, 0) 
+print(newKeyVal) # {'a': 0, 'b': 0, 'c': 0}
 
 # is contain 
 my_dict = {'a': 1, 'b': 2}
-# print('a' in my_dict) 
-# print('f' in my_dict) 
+print('a' in my_dict)  # True
+print('f' in my_dict)  # False
