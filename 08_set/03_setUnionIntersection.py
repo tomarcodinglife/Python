@@ -71,12 +71,31 @@ print(setJ) # {65, 98, 72, 73, 74, 44, 45, 78, 22, 55}
 
 # intersection_update()
 print("-------------------------intersection_update()-----------------------------")
+setM = {55, 56, 65, 45, 89, 60, 30}
+setN = {25, 30, 10, 82, 60}
+print(setM) # {65, 55, 56, 89, 60, 45, 30}
+setM.intersection_update(setN)
+print(setM) # {60, 30}
 
 # difference_update()
 print("-------------------------difference_update()-----------------------------")
+setO = {20, 14, 98, 89, 33, 20}
+setP = {66, 36, 12, 89, 20}
+print(setO) #{33, 98, 20, 89, 14}
+setO.difference_update(setP)
+print(setO) # {33, 98, 14}
 
 # symmetric_difference_update()
 print("-------------------------symmetric_difference_update()-----------------------------")
+setQ = {82, 56, 46, 21, 33}
+setR = {42, 60, 38, 73, 56, 82}
+print(setQ) # {33, 82, 21, 56, 46}
+setQ.symmetric_difference_update(setR)
+print(setQ) # {33, 38, 73, 42, 46, 21, 60}
 
 # frozenset()
 print("-------------------------frozenset()-----------------------------")
+'''Though not a method of set, frozenset is a related concept. A frozenset is an immutable version of a set. Once created, it cannot be modified.
+'''
+forzen = frozenset([1, 2, 3])
+
