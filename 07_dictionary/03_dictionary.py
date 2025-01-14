@@ -30,4 +30,4 @@ stateandcapital =  {
 }
 
 state = input("Enter state name for capital..")
-print(stateandcapital[state])
+print(stateandcapital[state]) 

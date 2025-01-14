@@ -18,7 +18,7 @@ print(name) # T
 
 print(name2[:3]) # is same as print name[0:3] - Suj
 print(name1[1:]) # is same as print name[1:9] - ujit Tomar
-print(name[:])
+print(name[:]) # sujit
 
 # -------------- Negative Slicing -----------------------
 print("-------------- Negative Slicing -----------------------")

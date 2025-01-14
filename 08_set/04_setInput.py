@@ -1,4 +1,4 @@
-set = set()
+set = set() # empty set
 
 number = input("Please Enter Number : ")
 set.add(int(number))
