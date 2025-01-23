@@ -1,9 +1,8 @@
 
-for i in range (0, 100, 4):
+for i in range (4, 100, 4):
     print(i)
 
 '''
-0
 4
 8
 12
