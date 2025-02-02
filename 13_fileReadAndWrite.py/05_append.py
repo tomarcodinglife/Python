@@ -11,3 +11,5 @@ for i in range (number_of_entry):
     totalString += string
 
 print(f"{number_of_entry} Entry of strings({totalString}) have been successfully appended to the file.")
+
+file.close()
