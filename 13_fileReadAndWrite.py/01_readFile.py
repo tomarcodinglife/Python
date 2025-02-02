@@ -1,15 +1,8 @@
-# f  = open("file.txt", "r")
-# content = f.read()
-# print(content)
-# print(type(content))
-# f.close()
-
-
-f = open("C:/Users/PC/OneDrive/Documents/Python/13_fileReadAndWrite.py/file.txt", "r")
-content = f.read()
+file = open("C:/Users/PC/OneDrive/Documents/Python/13_fileReadAndWrite.py/Readfile.txt", "r")
+content = file.read()
 print(content)
 print(type(content))
-f.close()
+file.close()
 
 '''
 Hi my self sujit tomar and 
