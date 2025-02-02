@@ -1,4 +1,12 @@
-file  = open("02_file.txt")
-data = file.read()
-print(data)
-file.close
+# f  = open("file.txt", "r")
+# content = f.read()
+# print(content)
+# print(type(content))
+# f.close()
+
+
+f = open("file.txt", "r")
+content = f.read()
+print(content)
+print(type(content))
+f.close()
