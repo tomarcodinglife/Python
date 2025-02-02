@@ -1,7 +1,6 @@
 # Readline 
 file = open("C:/Users/PC/OneDrive/Documents/Python/13_fileReadAndWrite.py/syllabus.txt")
 
-
 lineFirst = file.readline()
 print(lineFirst, type(lineFirst))
 
