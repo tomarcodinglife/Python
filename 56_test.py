@@ -8,5 +8,3 @@ if(content01 == content02):
     print("Yes, Both File are same")
 else:
     print("No, Both File are diffrent")
-
-
