@@ -7,16 +7,16 @@ class Train:
         self.placeFrom = placeFrom
         self.placeTo = placeTo
 
-    def ticketBooking(self, placeFrom, placeTo):
+    def ticketBooking(self):
         print(f"ticket in booked in train no {self.trainNumber} from {self.placeFrom} to {self.placeTo}")
 
     def getStatus(self):
         print(f"train no {self.trainNumber} running late by {randint(1, 5)} hours")
 
-    def getFare(self, placeFrom, placeTo):
+    def getFare(self):
         print(f"Ticket fare in train {self.trainNumber} from {self.placeFrom} to {self.placeTo} fare is {randint(866, 7900)}")
 
 firstTrain = Train("Mahabodhi", 12345, "Delhi", "Kolkata")
-firstTrain.ticketBooking("Delhi", "Kolkata")
-firstTrain.getFare("Delhi", "Kolkata")
+firstTrain.ticketBooking()
+firstTrain.getFare()
 firstTrain.getStatus()
