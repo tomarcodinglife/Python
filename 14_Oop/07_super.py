@@ -1,4 +1,3 @@
-'''
 # in first case without super keyword
 class employee:
     name = "Sujit Tomar"
@@ -32,7 +31,7 @@ employeeFirst = manager()
 employeeFirst = teamLeader()
 # Sujit Tomar - Python - 120000 - Google
 
-'''
+
 
 
 
@@ -52,17 +51,22 @@ class employee:
 class manager(employee):
     # salary = 120000
     def __init__(self, name = "name", language = "language", salary = "salary"):
-        super.__init__(name, language, salary)
+        super().__init__(name, language, salary)
         print(f"{self.name} - {self.language} - {self.salary}")
 
 class teamLeader(manager):
     # company = "Google"
     def __init__(self, name = "name", language = "language", salary = "salary", company = "company"):
-        super.__init__(name, language, salary) 
+        super().__init__(name, language, salary) 
         self.company = company
         # here super means manager class also run with this class auto
         print(f"{self.name} - {self.language} - {self.salary} - {self.company}")
 
-employeeFirst = employee(name="Sujit Tomar", language="Python", salary=150000)
-employeeSecond = manager(name="Sujit Tomar", language="Python", salary=150000)
-employeeThird = teamLeader(name="Sujit Tomar", language="Python", salary=150000, company="Meta")
+employeeSixth = teamLeader(name="Sujit Tomar", language="Python", salary=150000, company="Meta")
+
+'''
+Sujit Tomar - Python - 150000
+Sujit Tomar - Python - 150000
+Sujit Tomar - Python - 150000 - Meta
+
+'''
