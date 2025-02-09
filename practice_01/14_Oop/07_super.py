@@ -7,7 +7,7 @@ class employee:
     # def showEmployee(self):
     #     print(f"{self.name} - {self.language} - {self.salary}")
 
-    def __init__(self, name = "name", language = "language", salary = 100000):
+    def __init__(self, name = "name", language = "language", salary = 100000): # its call default constructor because its have no parameter
         self.name = "Sujit Tomar"
         self.language = "Python"
         self.salary = 100000

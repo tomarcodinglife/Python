@@ -27,7 +27,7 @@ print("Download complete!")
 
 import yt_dlp
 
-url = 'https://www.youtube.com/watch?v=NTHVTY6w2Co&list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop&index=10'
+url = 'https://www.youtube.com/playlist?list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop'
 
 # Create a YDL options dictionary
 ydl_opts = {
