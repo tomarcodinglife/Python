@@ -79,6 +79,7 @@ SyntaxError: expected ':'
 IndentationError: expected an indented block after 'for' statement on line 1
 >>> 
 >>> 
+'''
 <p>it means you write wrong syntax in python</p>
 <p>First you missed (:) because in for loop it is mandatory and Second you miss space that is error</p>
 
