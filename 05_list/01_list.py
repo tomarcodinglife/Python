@@ -49,9 +49,26 @@ arrayRemove = ["Amit", "Sumit", "Ranjit", "Sanjit"]
 print(arrayRemove.remove("Sanjit"))
 print(arrayRemove) # ['Amit', 'Sumit', 'Ranjit']
 
+# ----------------------------------- Append Method ------------------------------------
+print("-------------------------------- Append Method -------------------------------")
+
+fruits = ["Apple", "Orange", "Banana", "Grapes", "Pineapple"]
+fruits.append("Mango")
+print(fruits) # ['Apple', 'Orange', 'Banana', 'Grapes', 'Pineapple', 'Mango']
+
+
+myListA01 = [8, 9, 10]
+myListA02 = myListA01.copy() # copy() method is used to copy the list which is already created.
+print(myListA02) # [8, 9, 10]
+myListA01.append(11)
+print(myListA01) # [8, 9, 10, 11] myListA01 is changed
+print(myListA02) # [8, 9, 10] myListA02 is not changed
+
 
 # Sum
 a = [1, 2, 3]
 print(sum(a)) # 6
+
+
 
 

@@ -53,4 +53,10 @@ mathsymbol = "a \u03A9 b"
 # 10. \x – Hexadecimal value  (Character represented by a hexadecimal value)
 alphabetLetter = "\x41"
 
-# 11. print(alphabetLetter)
+#11 row string
+Sujitstring = r"i am sujit\ntomar"
+print(f"Sujitstring is {Sujitstring}") # Sujitstring is i am sujit\ntomar
+
+# 12. print(alphabetLetter)
+
+
