@@ -33,7 +33,8 @@ NameError: name 'Programming' is not defined. Did you mean: 'quit'?
 ### Module Library or Packages Case
 ```terminal
 >>> import os
->>> os.getcwd()  #remember cdw :- Current Working Directory
+<!-- remember cdw :- Current Working Directory -->
+>>> os.getcwd()  
 'C:\\Users\\PC\\OneDrive\\Documents\\Python'
 
 >>> import abcfgf
