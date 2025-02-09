@@ -81,6 +81,24 @@ IndentationError: expected an indented block after 'for' statement on line 1
 >>> 
 ```
 <p>it means you write wrong syntax in python</p>
-<p>First you missed (:) because in for loop it is mandatory and Second you miss space that is error</p>
+<p>First you missed (:) because in for loop it is mandatory and Second you miss space (IndentationError) that is error</p>
+
+##
+```terminal 
+>>> import sys
+>>> sys.platform()
+Traceback (most recent call last):
+  File "<python-input-3>", line 1, in <module>
+    sys.platform()
+    ~~~~~~~~~~~~^^
+TypeError: 'str' object is not callable
+>>> 
+>>> import sys
+>>> sys.platform
+'win32'
+>>> 
+```
+<p>TypeError: 'str' object is not callable :- Means it is not a function</p>
+
 
 
