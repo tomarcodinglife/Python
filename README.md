@@ -9,7 +9,7 @@ print(name)
 
 ## Some error Identify in python
 
-### Basic Case
+### Right Code in Normal Case
 
 ```terminal
 >>> print ("Sujit")
