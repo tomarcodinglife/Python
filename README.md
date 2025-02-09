@@ -29,6 +29,7 @@ Traceback (most recent call last):
 NameError: name 'Programming' is not defined. Did you mean: 'quit'?
 ```
 <!--it means not variable define -->
+<span style="color:red">it means not variable define</span>
 
 ### Module Library or Packages Case
 ```terminal
@@ -43,4 +44,5 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'abcfgf'
 
 ```
-<!-- remember cdw Means :- Current Working Directory -->
+<span style="color:red">remember cdw Means :- Current Working Directory</span>
+
