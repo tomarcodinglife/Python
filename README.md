@@ -108,6 +108,24 @@ TypeError: 'str' object is not callable
 >>> reload(page)
 ```
 
+## Data Type
+| Data Type   |         Discripition          |     Type       | Example                                 | 
+| ----------- |:-----------------------------:| --------------:| ---------------------------------------:|
+| Integers    |                               | Immutable      | x= 5, y = 10                            | 
+| Floting Point Numbers|                      | Immutable      | a = 3.14, b = 5.36                      | 
+| Booliean    |                               | Immutable      | is_active = True, isCompleted = False   | 
+| String      |                               | Immutable      | name = "Sujit"                          | 
+| Tuples      |                               | Immutable      | cordinates = (10, 20)                   | 
+| Frozen set  |                               | Immutable      | frozen_set_example = frozenset([1, 2,3])| 
+| Bytes       |                               | Immutable      | bytes_example = b"Sujit Tomar"          | 
+| List        |                               | Mutable        | num = [, 2, 3]                          | 
+| Set         |                               | Mutable        | num = {1, 2, 3}                         | 
+| Dictionary  |                               | Mutable        | stu = {"name" = "Sujit", "age" = 22}    | 
+| Bitearray   |                               | Mutable        | value = bytearray([65, 66, 67])         | 
+| Array       |  it is contain same type value| Mutable        | int_array = arrar.array("i", [1, 2, 3]) | 
+
+
+
 
 
 
