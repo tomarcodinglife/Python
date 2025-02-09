@@ -29,7 +29,7 @@ Traceback (most recent call last):
 NameError: name 'Programming' is not defined. Did you mean: 'quit'?
 ```
 <!--it means not variable define -->
-<b>It means not variable define</b>
+<p>It means not variable define</p>
 
 ### Module Library or Packages Case
 ```terminal
@@ -44,5 +44,6 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'abcfgf'
 
 ```
-<b>Remember cdw Means :- Current Working Directory</b>
+<p>Remember cdw Means :- Current Working Directory</p>
+<p>ModuleNotFoundError: it means when you write wrong name of library or module then show this type error</p>
 
