@@ -6,7 +6,11 @@ name = Sujit Tomar
 print(name)
 #Sujit Tomar
 ```
-## Error Identify
+
+## Some error Identify in python
+
+### Basic Case
+
 ```terminal
 >>> print ("Sujit")
 Sujit
@@ -14,10 +18,28 @@ Sujit
 >>> 500 * 2
 10000
 
->>> Programming
+```
+
+### Variable Case
+```terminal
+>>> Programming 
 Traceback (most recent call last):
   File "<python-input-0>", line 1, in <module>
     Programming
 NameError: name 'Programming' is not defined. Did you mean: 'quit'?
+# it means not variable define 
+
+```
+### Module Library or Packages Case
+```terminal
+>>> import os
+>>> os.getcwd()  #remember cdw :- Current Working Directory
+'C:\\Users\\PC\\OneDrive\\Documents\\Python'
+
+>>> import abcfgf
+Traceback (most recent call last):
+  File "<python-input-4>", line 1, in <module>
+    import abcfgf
+ModuleNotFoundError: No module named 'abcfgf'
 
 ```
