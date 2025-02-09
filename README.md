@@ -100,5 +100,14 @@ TypeError: 'str' object is not callable
 ```
 <p>TypeError: 'str' object is not callable :- Means it is not a function</p>
 
+## import updated
+"When you import allrady any page to another page then use below syntax for update"
+
+```terminal
+>>> from importlib import reload
+>>> reload(page)
+```
+
+
 
 
