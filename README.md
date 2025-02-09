@@ -27,13 +27,12 @@ Traceback (most recent call last):
   File "<python-input-0>", line 1, in <module>
     Programming
 NameError: name 'Programming' is not defined. Did you mean: 'quit'?
-# it means not variable define 
-
 ```
+<!--it means not variable define -->
+
 ### Module Library or Packages Case
 ```terminal
 >>> import os
-<!-- remember cdw :- Current Working Directory -->
 >>> os.getcwd()  
 'C:\\Users\\PC\\OneDrive\\Documents\\Python'
 
@@ -44,3 +43,4 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'abcfgf'
 
 ```
+<!-- remember cdw Means :- Current Working Directory -->
