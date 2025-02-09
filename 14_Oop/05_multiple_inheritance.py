@@ -27,7 +27,7 @@ employeeFirst.name = "Sujit Kumar Singh"
 employeeFirst.salary = 150000
 employeeFirst.company = "Google"
 
-employeeFirst.employeeDetails()
-employeeFirst.showSalary()
-employeeFirst.showEmployee()
+employeeFirst.employeeDetails() # The employee name is Sujit Kumar Singh working in Google and his salary is 150000
+employeeFirst.showSalary() # Employee salary is 150000
+employeeFirst.showEmployee() # Employee Name is Sujit Kumar Singh and working in the Google
 

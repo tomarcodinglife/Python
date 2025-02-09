@@ -22,7 +22,8 @@ Rolls_Royce.Price = "209 CR (INR)"
 Rolls_Royce.Company = "Rolls_Royce"
 
 # First Method Call
-# Rolls_Royce.carInfo()
+print("\nFirst Method Call")
+Rolls_Royce.carInfo()
 '''
 Company = Rolls_Royce 
 Model = Droptail 
@@ -31,6 +32,7 @@ Price = 209 CR (INR)
 
 '''
 # Second Method for Call
+print("\nSecond Method Call")
 Car.carInfo(Rolls_Royce)
 
 
