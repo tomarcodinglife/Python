@@ -357,7 +357,7 @@ counter = Counter(elements)
 print(counter)  # Output: Counter({'a': 3, 'b': 2, 'c': 1})
 
 ```
-
+<!-------------------------------------------------------------------------------->
 Dictionary Comprehension:
 ```python
 # Example: Create a dictionary of squares
@@ -365,7 +365,7 @@ squares_dict = {x: x ** 2 for x in range(6)}
 print(squares_dict)  # Output: {0: 0, 1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
 
 ```
-
+<!-------------------------------------------------------------------------------->
 Using get() to Access Dictionary Values Safely:
 ```python
 my_dict = {'a': 1, 'b': 2}
@@ -380,4 +380,35 @@ print(my_dict.get('c'))  # Output: None
 print(my_dict.get('c', 0))  # Output: 0
 
 ```
+<!-------------------------------------------------------------------------------->
+math :
 
+```terminal
+>>> import math
+>>> math.pi
+3.141592653589793
+>>> 
+```
+<!-------------------------------------------------------------------------------->
+Random :
+```terminal
+>>> import random
+>>> random.random()
+0.4596604027751191
+>>> random.random()
+0.20735437958994385
+>>> random.random()
+0.39390716757344313
+>>> random.random()
+0.9018445517995602
+>>> 
+
+>>> random.choice([1, 2, 3, 4, 5])
+3
+>>> random.choice([1, 2, 3, 4, 5])
+4
+>>> random.choice([1, 2, 3, 4, 5])
+3
+>>> 
+```
+<!-------------------------------------------------------------------------------->
