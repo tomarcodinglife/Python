@@ -47,3 +47,23 @@ ModuleNotFoundError: No module named 'abcfgf'
 <p>Remember cdw Means :- Current Working Directory</p>
 <p>ModuleNotFoundError: it means when you write wrong name of library or module then show this type error</p>
 
+
+### Syntax Case
+```teaminal
+>>> for s in "Sujit":
+...     print(s)
+... 
+S
+u
+j
+i
+t
+>>> 
+
+>>> for s in "Sujit"
+  File "<python-input-6>", line 1
+    for s in "Sujit"
+                    ^
+SyntaxError: expected ':'
+>>> 
+<p>it means you write wrong syntax in python</p>
