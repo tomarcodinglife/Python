@@ -1,3 +1,4 @@
+#incapsulation means in single class all type of method work internally
 #Private Attribute with (__AttrubuteName) : Not accessible in out of class without method
 class Employee:
     def __init__(self, EmployeeName, ProgrammingLanguage, Salary):
