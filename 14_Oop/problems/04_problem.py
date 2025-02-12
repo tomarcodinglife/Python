@@ -13,6 +13,6 @@ class Employee:
 EmployeeFirst =  Employee("Sujit Tomar", "Python", "15.5 Lakh")
 EmployeeFirst.getSalary()
 print(EmployeeFirst.EmployeeName) # Sujit Tomar : Because it accessible out of class
-print(EmployeeFirst.__Salary()) # AttributeError: 'Employee' object has no attribute '__Salary'.
+# print(EmployeeFirst.__Salary()) # AttributeError: 'Employee' object has no attribute '__Salary'.
 
 

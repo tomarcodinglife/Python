@@ -1,3 +1,5 @@
+# yield use for next() 
+# it means when i call first 
 def evenGen (limit):
     for i in range(0, limit+1, 2):
         yield i

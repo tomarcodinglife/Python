@@ -6,7 +6,7 @@ class car :
 
 class electricCar(car) :
     def __init__(self, Brand, Model, battrySize):
-        super().__init__(Brand, Model)
+        super().__init__(Brand, Model) # it is inherit two attribute from __init__ with super() method
         self.battrySize = battrySize
         print(f"{self.Brand} - {self.Model} - {self.battrySize}")
 
