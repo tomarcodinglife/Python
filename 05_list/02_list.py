@@ -27,3 +27,10 @@ print(myList) # [1, 11, 17, 2, 3, 4, 5]
 myList[1:3] = []
 print(myList) # [1, 2, 3, 4, 5]
 
+print("----------------------For Loop----------------------------")
+
+abcList = [5, 2, 5, 8, 8, 10]
+
+for item in abcList:
+    print(f"ABCLIST - {item}")
+
