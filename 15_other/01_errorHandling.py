@@ -24,3 +24,12 @@ try:
      file.write("Sujit Tomar")
 finally:
      file.close()
+
+
+
+try:
+     pass
+except:
+     pass
+finally:
+     pass
