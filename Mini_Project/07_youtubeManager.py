@@ -1,6 +1,6 @@
 import json
 
-yt_file = 'youtube.txt'
+yt_file = 'Mini_Project\youtube.txt'
 
 def load_data():
     try:
@@ -14,8 +14,10 @@ def save_data_helper(videos):
         json.dump(videos, file) # two parameter What Write and Where Write
 
 def list_all_video(videos):
+    print("\n")
     for index, video in enumerate(videos, start=1):
-        print(f"{index}. {video['name']}, Duration: {video['time']} ")
+        print(f"{index}. {video['name']}, - Duration: {video['time']} ")
+    print("\n")
 
 def add_video(videos):
     name = input("Enter Video Name: ")
@@ -25,10 +27,23 @@ def add_video(videos):
     
 
 def update_video(videos):
-    pass
-
+    list_all_video(videos)
+    index = int(input("Enter the video number to update: "))
+    if 1 <= index <= len(videos):
+        name = input("Enter the New Video Name ")
+        time = input ("Enter the new video time: ")
+        videos[index-1] = {'name' : name, 'time' : time}
+        save_data_helper(videos)
+    else:
+        print("Invalid Video index Selected")
+        
 def delete_video(videos):
-    pass
+    list_all_video(videos)
+    index = int(input("which videos index want to delete: "))
+    if 1 <= index <= len(videos):
+        del videos(index-1)
+    else:
+        print("Invalid Video index Selected")
 
 
 def main():
@@ -37,8 +52,8 @@ def main():
         print("\n Youtube Manager | Choose an option ")
         print("1. List all youtube videos ")
         print("2. Add a youtube video ")
-        print("3. Update a youtube video details")
-        print("4. Delete a youtube video")
+        print("3. Update a youtube video details ")
+        print("4. Delete a youtube video ")
         print("5. Exit the app ")
         choice = input("Enter you choice ")
 
