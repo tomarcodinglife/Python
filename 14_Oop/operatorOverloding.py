@@ -11,10 +11,9 @@
 #   !=	    __ne__(self, other)	        Not equal comparison
 
 class Number:
-    def __init__(self, value):
-        self.num = value
-    
-    def __add__(self, value1):
-        return self.num + value1.num
-    
+    def __init__(self, n):
+        self.n = n
+
+    def __add__(self, num):
+        return self.n + num
     
